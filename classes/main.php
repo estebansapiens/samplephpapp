@@ -1,8 +1,7 @@
 <?php
 
 /* @Creation Date: 11/7/2015
- * @Modification Date: 11/7/2015
- * @Author: Esteban Arias Gonzalez (earias@sapiens.co.cr)
+ * @Modification Date: 21/1/2016
  * 
  * System Main Control class mantains general functionality.
  */
@@ -14,7 +13,7 @@ class SystemMainControl {
 	
 	// Constructor function
 	public function __construct() {
-		$this->adminDirectory = $_SERVER['SERVER_NAME']."/admin/";
+		$this->adminDirectory = $GLOBALS['systemconfigs']->appDirectory;
 	}
 	
 	// Logger

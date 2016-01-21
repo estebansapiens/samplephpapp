@@ -8,9 +8,6 @@ include_once "./classes/config.php";
 // Main class
 include_once "./classes/main.php";
 
-// User Mantainer
-include_once "./classes/user.php";
-
 // Session Mantainer
 include_once "./classes/session.php";
 
