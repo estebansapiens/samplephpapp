@@ -1,0 +1,18 @@
+/*
+ * Main Styles
+ */
+#dashboardstats > .nav {
+  margin-top: 15px;
+}
+/*#dashboardContainer > #dashboardstats, #dashboardContainer > .jumbotron {
+  height: 325px;
+}*/
+.jumbotron {
+  margin-bottom: 20px;
+}
+#dashboardstats > .tab-content {
+  height: 420px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
