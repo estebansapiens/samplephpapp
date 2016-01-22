@@ -1,0 +1,27 @@
+.news-announcements {
+    margin: 0px auto 10px auto !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E3E0DF
+}
+.news-announcements h3 {
+    color: #00a9e3
+}
+.news-announcements .media-body {
+    display: block;
+    width: 100%
+}
+.news-announcements .media-body p {
+    color: #6b2f91;
+    font-size: 0.9em
+}
+.news-announcements .media-body a {
+    white-space: nowrap
+}
+.news-announcements .media-heading {
+    font-size: 1.25em;
+    font-weight: bold
+}
+.news-announcements .newsItem a,
+.news-announcements .newsItem a h4 {
+    color: #00a9e3
+}

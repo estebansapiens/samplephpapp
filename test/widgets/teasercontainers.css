@@ -1,0 +1,60 @@
+.teaser-two-column,
+.teaser-three-column,
+#mainTwoColumnLeftLeft,
+#mainTwoColumnRightRight {
+    padding: 4px 0px
+}
+.teaser-two-column div.cta-image-container,
+.teaser-three-column div.cta-image-container,
+#mainTwoColumnLeftLeft div.cta-image-container,
+#mainTwoColumnRightRight div.cta-image-container {
+    width: 100%;
+    height: 98px;
+    overflow: hidden
+}
+.teaser-two-column div>img.cta-image,
+.teaser-three-column div>img.cta-image,
+#mainTwoColumnLeftLeft div>img.cta-image,
+#mainTwoColumnRightRight div>img.cta-image {
+    border: 0;
+    width: 100%;
+    height: auto;
+    max-height: 98px
+}
+.teaser-two-column div.cta-content,
+.teaser-three-column div.cta-content,
+#mainTwoColumnLeftLeft div.cta-content,
+#mainTwoColumnRightRight div.cta-content {
+    padding: 10px
+}
+.teaser-two-column div.cta-content h5,
+.teaser-three-column div.cta-content h5,
+#mainTwoColumnLeftLeft div.cta-content h5,
+#mainTwoColumnRightRight div.cta-content h5 {
+    font-size: 1.75em;
+    color: #00a9e3 !important
+}
+.teaser-two-column div.cta-content .btn,
+.teaser-three-column div.cta-content .btn,
+#mainTwoColumnLeftLeft div.cta-content .btn,
+#mainTwoColumnRightRight div.cta-content .btn {
+    padding: 4px;
+    display: table-cell;
+    font-size: 98%;
+    border: none;
+    position: absolute;
+    top: 260px
+}
+div.cta-container {
+    min-height: 300px;
+    max-height: 300px;
+    margin: 10px 0px;
+    padding: 0px;
+    border: 1px solid #E3E0DF;
+    position: relative
+}
+@media screen and (max-width: 768px) {
+    div.cta-container {
+        margin: 10px !important
+    }
+}

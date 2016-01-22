@@ -1,0 +1,101 @@
+
+body,
+html,
+.content,
+.container {
+    font-family: 'Open Sans', sans-serif
+}
+body p,
+body div,
+body li,
+body a,
+body span,
+html p,
+html div,
+html li,
+html a,
+html span,
+.content p,
+.content div,
+.content li,
+.content a,
+.content span,
+.container p,
+.container div,
+.container li,
+.container a,
+.container span {
+    font-size: 1.025em
+}
+body h1,
+html h1,
+.content h1,
+.container h1 {
+    font-size: 2.25em
+}
+body h2,
+html h2,
+.content h2,
+.container h2 {
+    font-size: 2.00em
+}
+body h3,
+html h3,
+.content h3,
+.container h3 {
+    font-size: 1.75em
+}
+body h4,
+html h4,
+.content h4,
+.container h4 {
+    font-size: 1.65em
+}
+body h5,
+html h5,
+.content h5,
+.container h5 {
+    font-size: 1.55em
+}
+body h6,
+html h6,
+.content h6,
+.container h6 {
+    font-size: 1.45em
+}
+body h1>span,
+html h1>span,
+.content h1>span,
+.container h1>span {
+    font-size: 125%
+}
+body h2>span,
+html h2>span,
+.content h2>span,
+.container h2>span {
+    font-size: 120%
+}
+body h3>span,
+html h3>span,
+.content h3>span,
+.container h3>span {
+    font-size: 115%
+}
+body h4>span,
+html h4>span,
+.content h4>span,
+.container h4>span {
+    font-size: 110%
+}
+body h5>span,
+html h5>span,
+.content h5>span,
+.container h5>span {
+    font-size: 105%
+}
+body h6>span,
+html h6>span,
+.content h6>span,
+.container h6>span {
+    font-size: 100%
+}

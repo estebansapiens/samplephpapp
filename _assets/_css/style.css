@@ -1,0 +1,41 @@
+@import url( 'other/main-content.css' );
+@import url( 'other/header.css' );
+@import url( 'other/slogan.css' );
+@import url( 'other/html.css' );
+@import url( 'other/buttons.css' );
+@import url( 'other/go-top.css' );
+@import url( 'sections/small-appointment.css' );
+@import url( 'sections/presentation-v1.css' );
+@import url( 'sections/presentation-v2.css' );
+@import url( 'sections/special-content.css' );
+@import url( 'sections/about-us.css' );
+@import url( 'sections/opening-hours.css' );
+@import url( 'sections/contact-form.css' );
+@import url( 'sections/twitter.css' );
+@import url( 'sections/footer.css' );
+@import url( 'sections/appointment-popup.css' );
+@import url( 'sections/gallery-popup.css' );
+@import url( 'sections/gallery.css' );
+@import url( 'sections/blog.css' );
+#preloader {	position: fixed;	top: 0;	left: 0;	right: 0;	bottom: 0;	background-color: #fefefe;	z-index: 9999;	height: 100%;}#status {	width: 200px;	height: 200px;	position: absolute;	left: 50%;	top: 50%;	background-image: url('/_assets/_img/ajax-loader.gif');	background-repeat: no-repeat;	background-position: center;	margin: -100px 0 0 -100px;}
+/*------------------------------------------------------------------------------ main css things */
+@media all and (max-width: 680px) {
+	#FCS_86f9cd832da07225e8b7c4d7eeb13474_divFix {
+		display: none;
+	}
+	footer a {
+		display: none;	}
+	#go-top {
+		bottom: 0;		cursor: pointer;		left: calc(100% - 40px);		margin-left: 0 !important;		z-index: 1000;	}
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway';	top: 0;
+}
+body {
+	background: #eee;	color: #3b3b3b;}
+.clear {
+	clear: both;	display: block;}
+a {
+	cursor: pointer;}

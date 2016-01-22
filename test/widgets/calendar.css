@@ -1,0 +1,83 @@
+div.Calendar {
+    background: #fff;
+    border: 1px solid #E3E0DF;
+    margin: 0px auto 10px auto
+}
+@media screen and (max-width: 769px) {
+    div.Calendar {
+        padding: 10px
+    }
+}
+div.Calendar>table {
+    width: 100%;
+    border: 0px
+}
+div.Calendar>table tr:first-child td {
+    padding-top: 0px;
+    background-color: #f26f21 !important;
+    color: #fff;
+    font-size: 1.25em
+}
+div.Calendar>table tr:first-child td:first-child table td:first-child,
+div.Calendar>table tr:first-child td:first-child table td:last-child {
+    display: none
+}
+div.Calendar>table tr:not(:first-child) {
+    border: 2px solid #E3E0DF
+}
+div.Calendar>table tr:not(:first-child) a,
+div.Calendar>table tr:not(:first-child) a:visited,
+div.Calendar>table tr:not(:first-child) a:hover,
+div.Calendar>table tr:not(:first-child) a:focus {
+    color: #494340 !important;
+    text-decoration: none;
+    font-size: 1.125em
+}
+div.Calendar>table tr:not(:first-child) td:not(.otherMonthDays) {
+    background: linear-gradient(#fff, #E3E0DF)
+}
+div.Calendar>table tr:not(:first-child) td.otherMonthDays {
+    border: 1px solid #fff
+}
+div.Calendar>table tr:not(:first-child) td.otherMonthDays a,
+div.Calendar>table tr:not(:first-child) td.otherMonthDays a:visited,
+div.Calendar>table tr:not(:first-child) td.otherMonthDays a:hover,
+div.Calendar>table tr:not(:first-child) td.otherMonthDays a:focus {
+    color: #91857E !important;
+    text-decoration: none
+}
+div.Calendar>table tr:not(:first-child) td.dayWithEvents {
+    font-weight: bold;
+    color: #010101
+}
+div.Calendar>table tr td {
+    height: 40px;
+    background-color: #E8E8E8;
+    text-transform: uppercase;
+    padding-top: 4px
+}
+@media screen and (max-width: 479px) {
+    div.Calendar>table tr td {
+        font-size: 1.5em;
+        height: 50px
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    div.Calendar>table tr td {
+        font-size: 1.75em;
+        height: 80px
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div.Calendar>table tr td {
+        font-size: 1.25em;
+        height: 55px
+    }
+}
+div.Calendar th {
+    display: none
+}
+#mainTwoColumnRightRight div.EventDetail,
+#mainTwoColumnLeftLeft div.EventDetail {
+    display: none
+}

@@ -1,0 +1,45 @@
+.news-feed {
+    margin: 0px auto 10px auto
+}
+@media screen and (max-width: 992px) {
+    .news-feed {
+        margin: 10px
+    }
+}
+.news-feed .feed-title {
+    color: hotpink
+}
+.news-feed .btn {
+    margin-top: 5px
+}
+.news-feed ul {
+    display: table
+}
+.news-feed li {
+    list-style: none;
+    margin: 8px 0px 8px 0px
+}
+.news-feed li a {
+    display: table-row;
+    text-indent: 0.05em;
+    text-align: justify
+}
+.news-feed li:before {
+    background-image: url(/App_Themes/images/sprites/sprite-gp-sprite.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 16px;
+    height: 14px;
+    float: left;
+    content: "" !important;
+    margin-right: 0.50em;
+    border: none !important;
+    width: 13px;
+    display: table-cell;
+    text-align: right
+}
+.news-feed h3 {
+    font-size: 1.75em
+}

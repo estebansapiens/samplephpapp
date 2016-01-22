@@ -1,0 +1,36 @@
+div.calloutbox {
+    margin: 10px;
+    border: 1px solid #E8E8E8
+}
+@media screen and (min-width: 992px) {
+    div.calloutbox {
+        margin: 10px 0px
+    }
+}
+div.calloutbox a {
+    position: relative
+}
+div.calloutbox a img {
+    margin-top: 55px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px
+}
+div.calloutbox a.callOutTitleLink {
+    display: block;
+    background-color: #DD4F4E;
+    text-transform: uppercase;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.00em;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    text-decoration: none
+}
+div.calloutbox a.callOutTitleLink:hover {
+    color: #F76C2C
+}

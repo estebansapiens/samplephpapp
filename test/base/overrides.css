@@ -1,0 +1,15 @@
+
+.nav>li>a {
+    border-radius: 0px
+}
+.no-border {
+    border: none !important
+}
+.no-colors {
+    color: transparent !important;
+    background: none !important;
+    background-color: none !important
+}
+.hidden {
+    display: none !important
+}

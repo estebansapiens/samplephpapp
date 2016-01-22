@@ -1,0 +1,57 @@
+.icon-list,
+.iconList {
+    margin: 0px
+}
+.icon-list .thumbnail button,
+.iconList .thumbnail button {
+    font-size: 1.175em;
+    font-weight: bold;
+    color: #00a9e3;
+    margin: 5px auto;
+    padding: 1px;
+    background: none;
+    border: none;
+    white-space: normal;
+    text-transform: uppercase
+}
+@media screen and (max-width: 768px) {
+    .icon-list .thumbnail img,
+    .iconList .thumbnail img {
+        min-width: 80%
+    }
+    .icon-list .thumbnail button,
+    .iconList .thumbnail button {
+        font-size: 1.4em !important
+    }
+}
+@media screen and (max-width: 480px) {
+    .icon-list .thumbnail img,
+    .iconList .thumbnail img {
+        min-width: 80%
+    }
+    .icon-list .thumbnail button,
+    .iconList .thumbnail button {
+        margin: 10px auto;
+        font-size: 1.4em !important
+    }
+}
+.icon-list .icon-button,
+.iconList .icon-button {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin: auto;
+    background: none;
+    border: none;
+    text-align: center;
+    border: 1px solid #fff
+}
+.icon-list .icon-button:hover,
+.iconList .icon-button:hover {
+    border: 1px solid #00a9e3;
+    background-color: #E8E8E8
+}
+.icon-list .icon-button:hover button,
+.iconList .icon-button:hover button {
+    color: #010101
+}

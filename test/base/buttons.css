@@ -1,0 +1,20 @@
+
+.btn {
+    border-radius: 0px;
+    color: white;
+    border: none;
+    font-size: 1.15em !important;
+    padding: 4px 12px
+}
+.btn-primary {
+    background-color: #f26f21
+}
+.btn-secondary {
+    background-color: #00a9e3
+}
+.btn-caret:after {
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.85em;
+    content: "\e080";
+    padding-left: 5px
+}

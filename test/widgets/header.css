@@ -1,0 +1,274 @@
+
+.bcps-header {
+    background-color: #fff
+}
+.bcps-header .school-name,
+.bcps-header .bcps-logo {
+    text-decoration: none !important
+}
+.bcps-header .school-name>span,
+.bcps-header .bcps-logo>span {
+    text-align: left;
+    white-space: nowrap
+}
+.bcps-header .school-name:hover .bcps-header .school-name:focus,
+.bcps-header .bcps-logo:hover .bcps-header .school-name:focus,
+.bcps-header .school-name:hover .bcps-header .bcps-logo:focus,
+.bcps-header .bcps-logo:hover .bcps-header .bcps-logo:focus {
+    text-decoration: none !important
+}
+.bcps-header .school-name {
+    font-size: 1.80em;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #00a9e3;
+    display: block;
+    text-align: right
+}
+.bcps-header .school-name span {
+    width: 100%;
+    text-align: right;
+    white-space: pre-line
+}
+@media screen and (max-width: 480px) {
+    .bcps-header .school-name {
+        font-size: 1.35em;
+        margin-left: 5px
+    }
+}
+.bcps-header .bcps-name {
+    font-size: 2.00em;
+    color: #fead00
+}
+@media screen and (max-width: 480px) {
+    .bcps-header .bcps-name {
+        font-size: 1.00em
+    }
+}
+.bcps-header .name-rows {
+    padding: 0px;
+    padding-left: 10px
+}
+.bcps-header #headerTbl td:nth-child(2) {
+    padding-top: 10px
+}
+.bcps-header .StyleSelectorLinks {
+    margin-left: 5px
+}
+.bcps-header .StyleSelectorLinks>a {
+    background: none;
+    padding: 3px 6px;
+    font-weight: bold
+}
+.bcps-header .StyleSelectorLinks>a:nth-child(1) {
+    font-size: 85%
+}
+.bcps-header .StyleSelectorLinks>a:nth-child(2) {
+    font-size: 100%
+}
+.bcps-header .StyleSelectorLinks>a:nth-child(3) {
+    font-size: 125%
+}
+.bcps-header .bcps-header-search .searchButton,
+.bcps-header .searchBox .searchButton {
+    padding: 4px 15px;
+    color: #00a9e3;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #91857E;
+    background: #e2e2e2;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZTJlMmUyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZGJkYmRiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZDFkMWQxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1)
+}
+.bcps-header .bcps-header-search .searchButton:hover,
+.bcps-header .searchBox .searchButton:hover {
+    color: #fff;
+    background: #6db3f2;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNmRiM2YyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjNTRhM2VlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjMzY5MGYwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNjlkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: linear-gradient(45deg, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de', GradientType=1)
+}
+.bcps-header .bcps-header-search .searchButton span,
+.bcps-header .searchBox .searchButton span {
+    font-size: 1.15em;
+    padding: 3px 0px
+}
+.bcps-header .bcps-header-search .form-control,
+.bcps-header .searchBox .form-control {
+    border: 1px solid #91857E;
+    background: #ededed;
+    background: linear-gradient(to bottom, #ededed 0%, #ededed 0%, #ddf1f9 7%, #feffff 26%, #feffff 75%, #ddf1f9 94%, #ededed 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ededed', GradientType=0)
+}
+.size-large .school-name {
+    font-size: 1.65em
+}
+.size-large *.bcps-header .bcps-header-search .searchButton span {
+    font-size: 1.00em;
+    padding: 0px
+}
+.size-large *.bcps-header .bcps-header-search .searchTextbox {
+    padding: 0px 12px
+}
+.size-tiny *.bcps-header .bcps-header-search .searchButton span {
+    font-size: 1.35em
+}
+@media screen and (max-width: 767px) {
+    #primaryMobileNavigation {
+        background: #E3E0DF
+    }
+    .name-container {
+        margin-bottom: 10px;
+        margin-right: 15px
+    }
+    .bcps-logo {
+        margin-top: -25px
+    }
+    .bcps-logo img.resize {
+        margin-bottom: 11px;
+        max-width: 20px;
+        height: auto;
+        max-height: 30px
+    }
+    .bcps-logo span {
+        line-height: 35px
+    }
+    .school-name {
+        font-size: 2.00em;
+        font-weight: normal !important;
+        margin-left: 10px;
+        color: #00a9e3;
+        display: block;
+        text-align: right
+    }
+    .school-name span {
+        width: 100%;
+        text-align: right;
+        white-space: normal
+    }
+}
+@media screen and (max-width: 767px) and (max-width: 480px) {
+    .school-name {
+        font-size: 1.45em;
+        margin-left: 5px;
+        margin-top: 5px
+    }
+}
+@media screen and (max-width: 767px) {
+    .top-bar {
+        border: 1px dotted red;
+        background: #f6f8f9;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjhmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2U1ZWJlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2Q3ZGVlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY3ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0);
+        height: 40px;
+        width: 100%
+    }
+    .top-bar button {
+        border-radius: 5px;
+        border: 2px solid #91857E
+    }
+    .top-bar .dist-selector {
+        font-size: 1.25em;
+        padding: 2px 11px;
+        margin-top: 12px;
+        right: 50px;
+        position: absolute
+    }
+}
+@media screen and (max-width: 767px) and (max-width: 768px) {
+    .top-bar .dist-selector {
+        margin-top: 6px;
+        right: 25px
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .school-logo {
+        padding-top: 10px
+    }
+    .school-logo img.resize {
+        max-width: 60px;
+        height: auto
+    }
+}
+@media screen and (max-width: 480px) {
+    .school-logo {
+        padding-top: 5px
+    }
+    .school-logo img {
+        margin-left: 5px
+    }
+    .school-logo img.resize {
+        max-width: 40px;
+        height: auto
+    }
+    .bcps-logo img.resize {
+        margin-bottom: 6px;
+        max-width: 10px;
+        height: auto;
+        max-height: 30px
+    }
+    .bcps-logo span {
+        line-height: 0px
+    }
+}
+@media screen and (min-width: 768px) {
+    .bcps-header {
+        min-height: 135px
+    }
+    .bcps-header .name-container .school-logo img.resize {
+        padding-bottom: 8px;
+        height: auto;
+        max-height: 100px;
+        max-width: 75px
+    }
+    .bcps-header .name-container .bcps-logo {
+        margin-top: -25px
+    }
+    .bcps-header .name-container .bcps-logo img.resize {
+        padding-bottom: 8px;
+        max-width: 30px;
+        height: auto;
+        max-height: 30px
+    }
+    .bcps-header .name-container .bcps-logo span {
+        line-height: 35px
+    }
+    .bcps-header .header-extras .site-search {
+        padding: 3px;
+        width: 150px
+    }
+    .bcps-header .header-extras .social-icons {
+        margin: 0;
+        padding: 0;
+        list-style-type: none
+    }
+    .bcps-header .header-controls {
+        font-size: 1.10em
+    }
+    .bcps-header .header-controls>table td {
+        padding: 5px
+    }
+    .bcps-header .header-controls span {
+        color: #fead00
+    }
+    .bcps-header .header-controls .lborder {
+        border-left: 1px solid #00a9e3;
+        padding-left: 8px
+    }
+    .bcps-header .header-controls .rborder {
+        border-right: 1px solid #00a9e3;
+        padding-right: 8px
+    }
+    .bcps-header .header-controls .header-size button {
+        color: #00a9e3;
+        border: 1px solid white;
+        background: none;
+        margin: 2px;
+        padding: 1px
+    }
+    .bcps-header .header-controls .header-size button:hover {
+        border: 1px solid #00a9e3;
+        background-color: #E3E0DF
+    }
+}

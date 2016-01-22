@@ -1,0 +1,50 @@
+/*
+ * Main Styles
+ */
+#dashboardstats > .nav {
+  margin-top: 15px;
+}
+/*#dashboardContainer > #dashboardstats, #dashboardContainer > .jumbotron {
+  height: 325px;
+}*/
+#dashboardContainer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    flex-flow: row wrap;
+}
+#dashboardContainer > #dashboardstats, #dashboardContainer > .jumbotron {
+    flex-grow: 1;
+}
+.jumbotron {
+  margin-bottom: 20px;
+}
+#dashboardstats > .tab-content {
+  height: 420px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#activeusers > table tr > th:first-child, #activeusers > table tr > td:first-child,
+#adminlogs > table tr > th:first-child, #adminlogs > table tr > td:first-child {
+  display: none;
+}
+.dataTables_wrapper .row:nth-child(1) {
+  background-color: white;
+  position: absolute;
+  width: calc(100% - 31px);
+  z-index: 10;
+  top: 70px;
+}
+.dataTables_wrapper .row:nth-child(2) {
+  padding-bottom: 40px;
+  position: relative;
+  top: 25px;
+}
+.dataTables_wrapper .row:nth-child(3) {
+  background-color: white;
+  position: absolute;
+  top: 454px;
+  width: calc(100% - 32px);
+}
+

@@ -1,0 +1,440 @@
+/*------------------------------------------------------------------------------ header */
+header {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+}
+
+header.subpage {
+    height: 40% !important;
+}
+
+header #header-background-images {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #271c10;
+}
+
+header #header-background-images .header-background-image {
+    background-size: cover !important;
+    height: 100%;
+    width: 100%;
+    z-index: 1 !important;
+    filter: url('../blur.svg#blur');
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+}
+
+header .top-header-box .logo a img {
+	border: none;
+	width: 100%;
+	border-radius: 0 0 60px 60px;
+	background-color: rgba(255,255,255,0.4);
+	transition: all 0.5s;
+}
+
+header .top-header-box .logo a img:hover {
+	background-color: rgba(255,255,255,0.7);
+}
+
+#scrollable-menu-wrapper .logo a img {
+	width: 160px;
+	margin-left: calc(75% - 75px);
+	margin-top: -24px;
+}
+
+@media (max-width: 599px) {
+
+    header .top-header-box {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 5000;
+    }
+    
+    header .top-header-box ul.menu-left,
+    header .top-header-box ul.menu-right {
+        display: none;
+    }
+    
+    header .top-header-box .logo {
+        width: 160px;
+        height: 75px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -80px;
+    }
+    
+    .responsive-menu {
+        left: 50%;
+        top: 80px !important;
+    }
+    
+    #responsive-menu-window {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        background: #313131;
+        padding: 30px;
+        display: none;
+    }
+    
+    #responsive-menu-window h3 {
+        color: #fff;
+        font-size: 35px;
+    }
+    
+    #responsive-menu-window ul { 
+        list-style: none;
+        margin-top: 25px;
+    } 
+    
+    #responsive-menu-window ul li {
+        background: #292929;
+        border: 1px solid #202020;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    
+    #responsive-menu-window ul li a {
+        text-decoration: none;
+        color: #888;
+    }
+    
+    #responsive-menu-window .close-responsive-menu {
+        color: #cb9254;
+        font-size: 25px;
+        position: absolute;
+        top: 40px;
+        right: 88px;
+        cursor: pointer;
+    }
+    
+    #scrollable-menu-wrapper {
+        margin-left: 5%;
+    }
+    
+    #scrollable-menu-wrapper .scrollable-menu-list { display: none; }
+}
+
+@media (min-width: 600px) and (max-width: 849px) {
+
+    header .top-header-box {
+        width: 550px;
+        position: absolute;
+        top: 0;
+        z-index: 5000;
+        left: 50%;
+        margin-left: -275px;
+    }
+    
+    header .top-header-box ul.menu-left,
+    header .top-header-box ul.menu-right {
+        display: none;
+    }
+    
+    header .top-header-box .logo {
+        width: 160px;
+        height: 75px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #responsive-menu-window {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        background: #313131;
+        padding: 30px;
+        display: none;
+    }
+    
+    #responsive-menu-window h3 {
+        color: #fff;
+        font-size: 35px;
+    }
+    
+    #responsive-menu-window ul { 
+        list-style: none;              
+        margin-top: 25px;
+    } 
+    
+    #responsive-menu-window ul li {
+        background: #292929;
+        border: 1px solid #202020;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    
+    #responsive-menu-window ul li a {
+        text-decoration: none;
+        color: #888;
+    }
+    
+    #responsive-menu-window .close-responsive-menu {
+        color: #cb9254;
+        font-size: 25px;
+        position: absolute;
+        top: 40px;
+        right: 88px;
+        cursor: pointer;
+    }
+    
+    #scrollable-menu-wrapper {
+        width: 548px;
+        left: 50%;
+        margin-left: -275px;
+    }
+
+    #scrollable-menu-wrapper .scrollable-menu-list { display: none; }
+}
+
+@media (min-width: 850px) and (max-width: 1149px) {
+
+    header .top-header-box {
+        width: 800px;
+        position: absolute;
+        top: 0;
+        z-index: 5000;
+        left: 50%;
+        margin-left: -400px;
+    }
+    
+    header .top-header-box ul.menu-left,
+    header .top-header-box ul.menu-right {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    header .top-header-box ul.menu-left li,
+    header .top-header-box ul.menu-right li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    header .top-header-box ul.menu-left li a,
+    header .top-header-box ul.menu-right li a {
+        font-size: 12px !important;
+    }
+    
+    header .top-header-box .logo {
+        width: 160px;
+        height: 75px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -80px;
+    }
+    
+    #scrollable-menu-wrapper {
+        width: 798px;
+        left: 50%;
+        margin-left: -400px;
+    }
+    
+    #scrollable-menu-wrapper .scrollable-menu-list li a {
+        font-size: 12px !important;
+        padding: 0 9px !important;
+    }
+    
+    #scrollable-menu-wrapper .scrollable-menu-responsive { display: none; }
+    .responsive-menu { display: none; }
+}
+
+@media (min-width: 1150px) {
+
+    header .top-header-box {
+        width: 1100px;
+        position: absolute;
+        top: 0;
+        z-index: 5000;
+        left: 50%;
+        margin-left: -550px;
+    }
+    
+    header .top-header-box ul.menu-left,
+    header .top-header-box ul.menu-right {
+        list-style: none;
+        margin-top: 30px;
+    }
+   
+    header .top-header-box ul.menu-left li,
+    header .top-header-box ul.menu-right li {
+        display: inline;
+        margin: 0 20px;
+    }
+    
+    header .top-header-box .logo {
+        width: 190px;
+        height: 90px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -95px;
+    }
+    
+    #scrollable-menu-wrapper {
+        width: 1098px;
+        left: 50%;
+        margin-left: -550px;
+    }
+    
+    #scrollable-menu-wrapper .scrollable-menu-responsive { display: none; }
+    .responsive-menu { display: none; }
+}
+
+#responsive-menu-wrapper {
+    display: none;
+}
+
+header .top-header-box .responsive-menu {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: #ddd;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+header .top-header-box .responsive-menu i {
+    font-size: 21px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -2px;
+}
+
+header .top-header-box .responsive-menu:hover {
+    color: #fff;
+}
+
+header .responsive-menu-list a {
+    cursor: pointer;
+}
+
+header .top-header-box ul.menu-left li a, header .top-header-box ul.menu-right li a {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-shadow: 1px 1px 13px #454545;
+  transition-duration: 0.2s;
+}
+
+header .top-header-box ul.menu-left li a:hover, header .top-header-box ul.menu-right li a:hover, header .top-header-box ul.menu-left li.active a, header .top-header-box ul.menu-right li.active a {
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+header .top-header-box ul.menu-left {
+    float: left;
+}
+
+header .top-header-box ul.menu-left li:first-child,
+header .top-header-box ul.menu-right li:first-child { 
+    margin-left: 0;
+}
+
+header .top-header-box ul.menu-left li:last-child,
+header .top-header-box ul.menu-right li:last-child { 
+    margin-right: 0;
+}
+
+header .top-header-box ul.menu-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}        
+
+/* scrollable menu wrapper */
+#scrollable-menu-wrapper {
+    background: #fff;
+    -webkit-box-shadow: 0 3px 1px -1px rgba( 0, 0, 0, 0.05 );
+	  -moz-box-shadow: 0 3px 1px -1px rgba( 0, 0, 0, 0.05 );
+	  box-shadow: 0 3px 1px -1px rgba( 0, 0, 0, 0.05 ); 
+    height: 70px;
+    position: fixed;
+    border-left: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    top: 0;
+    display: none;
+    z-index: 400;
+}
+
+#scrollable-menu-wrapper .logo {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: 25px;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-list {
+    list-style: none;
+    padding: 24px 20px 25px 0;
+    float: right;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-list li {
+    display: inline;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-list li a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 12px;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-list li a:hover,
+#scrollable-menu-wrapper .scrollable-menu-list a {
+    color: #cb9254;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-responsive {
+    position: absolute;
+    top: 24px;
+    right: 40px;
+    color: #3b3b3b;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-responsive i {
+    font-size: 21px;
+    position: absolute;
+    margin-left: -5px;
+}
+
+#scrollable-menu-wrapper .scrollable-menu-responsive:hover {
+    color: #cb9254;
+}

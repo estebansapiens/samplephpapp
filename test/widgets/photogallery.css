@@ -1,0 +1,158 @@
+.bcps-pgallery {
+    margin: 0px 0px;
+    margin-bottom: 15px
+}
+.bcps-pgallery #jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 732.867px;
+    overflow: hidden;
+    background-color: #24262e
+}
+.bcps-pgallery .loader {
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+.bcps-pgallery .spinner-container {
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+.bcps-pgallery .loading-gif {
+    position: absolute;
+    display: block;
+    background: url("/images/gallery-test/loading.gif") no-repeat center center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+.bcps-pgallery .jssort01 {
+    top: 0px !important;
+    margin-top: 647px;
+    left: 220px !important
+}
+.bcps-pgallery .slides {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 632px;
+    overflow: hidden
+}
+.bcps-pgallery .slides>div[data-p="144.50"] {
+    width: 1024px;
+    height: 632px;
+    overflow: hidden
+}
+.bcps-pgallery .slides>div[data-p="144.50"] img {
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: auto
+}
+.bcps-pgallery .jssora05l,
+.bcps-pgallery .jssora05r {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background: url("/App_Themes/images/sprites/sprite-gallery-icons.png") no-repeat;
+    overflow: hidden;
+    top: 660px
+}
+.bcps-pgallery .jssora05l {
+    background-position: -12.5px -42.5px;
+    left: 15px
+}
+.bcps-pgallery .jssora05r {
+    background-position: -72.5px -42.5px;
+    right: 15px
+}
+.bcps-pgallery .jssora05l:hover {
+    background-position: -132.5px -42.5px
+}
+.bcps-pgallery .jssora05r:hover {
+    background-position: -192.5px -42.5px
+}
+.bcps-pgallery .jssora05l.jssora05ldn {
+    background-position: -252.5px -42.5px
+}
+.bcps-pgallery .jssora05r.jssora05rdn {
+    background-position: -312.5px -42.5px
+}
+.bcps-pgallery .jssort01 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px
+}
+.bcps-pgallery .jssort01 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none
+}
+.bcps-pgallery .jssort01 .w {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+.bcps-pgallery .jssort01 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+    border: #000 2px solid;
+    box-sizing: content-box;
+    background: url("/App_Themes/images/sprites/gallery-hover.png") -800 -800px no-repeat;
+    _background: none
+}
+.bcps-pgallery .jssort01 .pav .c {
+    top: 2px;
+    _top: 0px;
+    left: 2px;
+    _left: 0px;
+    width: 68px;
+    height: 68px;
+    border: #000 0px solid;
+    _border: #fff 2px solid;
+    background-position: 50% 50%
+}
+.bcps-pgallery .jssort01 .p:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    border: #fff 1px solid;
+    background-position: 50% 50%
+}
+.bcps-pgallery .jssort01 .p.pdn .c {
+    background-position: 50% 50%;
+    width: 68px;
+    height: 68px;
+    border: #000 2px solid
+}
+.bcps-pgallery * html .jssort01 .c,
+.bcps-pgallery * html .jssort01 .pdn .c,
+.bcps-pgallery * html .jssort01 .pav .c {
+    width: 72px;
+    height: 72px
+}

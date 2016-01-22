@@ -1,0 +1,65 @@
+
+.icon-footer-icons {
+    background-image: url(/App_Themes/images/sprites/sprite-footer-icons.png)
+}
+.icon-gallery-icons {
+    background-image: url(/App_Themes/images/sprites/sprite-gallery-icons.png)
+}
+.icon-social-icons {
+    background-image: url(/App_Themes/images/sprites/sprite-social-icons.png)
+}
+.icon-gp-sprite {
+    background-image: url(/App_Themes/images/sprites/sprite-gp-sprite.png)
+}
+.social-icons .icon {
+    border: none
+}
+.social-icons>li {
+    display: inline-block;
+    margin-top: 15px
+}
+.social-icons>li>a>span {
+    display: none
+}
+.social-icons .icon-email {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 40px
+}
+.social-icons .icon-facebook {
+    background-position: 0px -40px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 40px
+}
+.social-icons .icon-twitter {
+    background-position: 0px -120px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 40px
+}
+.social-icons .icon-rss {
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 40px;
+    margin-left: -5px
+}
+.footer-content .bcps-apple {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 104px;
+    height: 116px;
+    background-size: 30px 31px
+}

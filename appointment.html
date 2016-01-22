@@ -1,0 +1,113 @@
+<div class="appointment-header">
+
+    <div class="h3-box">
+    
+        <h3>Haga una <span>cita!</span></h3>
+        <div class="header-line">
+                                    
+            <div class="gray-line"></div>
+            <div class="color-line"></div>
+        
+        </div>
+    
+    </div>
+    
+    <i class="icon-remove" id="close-popup"></i>
+
+</div>
+
+<div class="appointment-form" id="appointment-form-in-popup">
+
+    <form method="post">
+    
+        <div class="input">
+                        
+            <div class="input-helper"><i class="icon-male"></i></div>
+            <input type="text" name="name" placeholder="Nombre..." />
+            
+            <div class="clear">
+            </div>
+        
+        </div>
+        
+        <div class="input">
+                        
+            <div class="input-helper"><i class="icon-phone"></i></div>
+            <input type="text" name="phone" placeholder="Número de Teléfono..." />
+            
+            <div class="clear">
+            </div>
+        
+        </div>
+        
+        <div class="input">
+                        
+            <div class="input-helper"><i class="icon-envelope"></i></div>
+            <input type="text" name="email" placeholder="Correo..." />
+            
+            <div class="clear">
+            </div>
+        
+        </div>
+
+        <div class="input">
+                        
+            <div class="input-helper"><i class="icon-calendar"></i></div>
+            <input type="text" name="appointment-date" placeholder="Fecha de la Cita" class="appointment-datepicker appointment-popup-form-datepicker" readonly />
+            
+            <div class="clear">
+            </div>
+        
+        </div>
+        
+        <div class="input approximate-time-input">
+        
+            <div class="input-helper"><i class="icon-time"></i></div>
+            <input type="text" name="approximate-time" placeholder="Hora de la Cita" class="approximate-time" readonly />
+            
+            <div class="clear">
+            </div>
+            
+            <div class="approximate-time-box animated fadeInDown">
+            
+                <div class="approximate-time-box-arrow"></div>
+                
+                <div class="element element-first">
+                
+                    <i class="icon-chevron-up element-up hours hours-up time-change-action-event"></i>
+                    <span class="element-value time-selector-hours" data-value="8">8</span>
+                    <i class="icon-chevron-down element-down hours hours-down time-change-action-event"></i>
+                
+                </div>
+                
+                <div class="element">
+                
+                    <i class="icon-chevron-up element-up mins mins-up time-change-action-event"></i>
+                    <span class="element-value time-selector-mins" data-value="0">00</span>
+                    <i class="icon-chevron-down element-down mins mins-down time-change-action-event"></i>
+                
+                </div>
+                
+                <div class="element">
+                
+                    <i class="icon-chevron-up element-up time-change-action-event time-type"></i>
+                    <span class="element-value time-selector-type" data-value="am">am</span>
+                    <i class="icon-chevron-down element-down time-change-action-event time-type"></i>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        <textarea placeholder="Notas adicionales..." name="additional-notes"></textarea>
+        <input type="button" value="Haga una cita!" class="button button-brown submit-appointment" />
+        
+        <div class="clear">
+        </div>
+    
+    </form>
+    
+    <div class="thanks">Su cita ha sido solicitada exitosamente!<br />Estaremos en contacto para confirmar la disponibilidad de la hora solicitada.<br />Por favor estar pendiente del correo electrónico y/o número de teléfono que nos ha facilitado.<br />Muchas Gracias!</div>
+
+</div>

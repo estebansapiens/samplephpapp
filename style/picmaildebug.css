@@ -1,0 +1,66 @@
+/*
+ * Debug Panel
+ */
+
+#debugpanel > .nav {
+	margin-top: 15px;
+}
+
+#pictureload > .panel {
+  padding-bottom: 15px;
+}
+
+/*
+ * Debug Console
+ */
+
+.debugConsole {
+  background-color: black;
+  border-radius: 2px;
+  color: #01ff01;
+  height: 400px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.debugConsole > span {
+  display: block;
+  font-family: Lucida Console;
+  font-size: 13px;
+}
+
+.debugConsole > span:last-child {
+  margin-bottom: 10px;
+}
+
+.ready .action {
+	height: 35px;
+	transition: height 0.3s ease-in 0s, 
+				padding 0.3s ease-in 0s;
+}
+
+.ready .cancelexec {
+	height: 0px;
+	padding: 0px;
+	pointer-events: none;
+	transition: height 0.3s ease-in 0s, 
+				padding 0.3s ease-in 0s;
+}
+
+.going .cancelexec {
+	height: 35px;
+	transition: height 0.3s ease-in 0s, 
+				padding 0.3s ease-in 0s;
+}
+
+.going .action {
+	height: 0px;
+	padding: 0px;
+	pointer-events: none;
+	transition: height 0.3s ease-in 0s, 
+				padding 0.3s ease-in 0s;
+}
+
+.action, .cancelexec {
+	overflow: hidden;
+}

@@ -1,0 +1,224 @@
+.tabbed-four-panel,
+.tabbed-three-panel {
+    margin: 10px auto
+}
+.tabbed-four-panel .nav>li,
+.tabbed-four-panel .nav>li.active,
+.tabbed-four-panel .nav>li:active,
+.tabbed-four-panel .nav>li:visited,
+.tabbed-three-panel .nav>li,
+.tabbed-three-panel .nav>li.active,
+.tabbed-three-panel .nav>li:active,
+.tabbed-three-panel .nav>li:visited {
+    padding-top: 0px !important;
+    border-radius: 0px;
+    text-transform: uppercase;
+    background: none !important
+}
+@media screen and (min-width: 992px) {
+    .tabbed-four-panel .nav>li,
+    .tabbed-four-panel .nav>li.active,
+    .tabbed-four-panel .nav>li:active,
+    .tabbed-four-panel .nav>li:visited,
+    .tabbed-three-panel .nav>li,
+    .tabbed-three-panel .nav>li.active,
+    .tabbed-three-panel .nav>li:active,
+    .tabbed-three-panel .nav>li:visited {
+        font-size: 1.65em
+    }
+}
+@media screen and (max-width: 992px) {
+    .tabbed-four-panel .nav>li,
+    .tabbed-four-panel .nav>li.active,
+    .tabbed-four-panel .nav>li:active,
+    .tabbed-four-panel .nav>li:visited,
+    .tabbed-three-panel .nav>li,
+    .tabbed-three-panel .nav>li.active,
+    .tabbed-three-panel .nav>li:active,
+    .tabbed-three-panel .nav>li:visited {
+        font-size: 1.25em;
+        padding-top: 5px
+    }
+}
+@media screen and (max-width: 480px) {
+    .tabbed-four-panel .nav>li,
+    .tabbed-four-panel .nav>li.active,
+    .tabbed-four-panel .nav>li:active,
+    .tabbed-four-panel .nav>li:visited,
+    .tabbed-three-panel .nav>li,
+    .tabbed-three-panel .nav>li.active,
+    .tabbed-three-panel .nav>li:active,
+    .tabbed-three-panel .nav>li:visited {
+        font-size: 1.10em;
+        padding-top: 1px
+    }
+    .tabbed-four-panel .nav>li a,
+    .tabbed-four-panel .nav>li.active a,
+    .tabbed-four-panel .nav>li:active a,
+    .tabbed-four-panel .nav>li:visited a,
+    .tabbed-three-panel .nav>li a,
+    .tabbed-three-panel .nav>li.active a,
+    .tabbed-three-panel .nav>li:active a,
+    .tabbed-three-panel .nav>li:visited a {
+        padding: 4px 0px
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .tabbed-four-panel .nav>li,
+    .tabbed-four-panel .nav>li.active,
+    .tabbed-four-panel .nav>li:active,
+    .tabbed-four-panel .nav>li:visited,
+    .tabbed-three-panel .nav>li,
+    .tabbed-three-panel .nav>li.active,
+    .tabbed-three-panel .nav>li:active,
+    .tabbed-three-panel .nav>li:visited {
+        font-size: 1.4em;
+        padding-top: 2px
+    }
+    .tabbed-four-panel .nav>li a,
+    .tabbed-four-panel .nav>li.active a,
+    .tabbed-four-panel .nav>li:active a,
+    .tabbed-four-panel .nav>li:visited a,
+    .tabbed-three-panel .nav>li a,
+    .tabbed-three-panel .nav>li.active a,
+    .tabbed-three-panel .nav>li:active a,
+    .tabbed-three-panel .nav>li:visited a {
+        padding: 4px 1px
+    }
+}
+.tabbed-four-panel .nav>li a,
+.tabbed-four-panel .nav>li.active a,
+.tabbed-four-panel .nav>li:active a,
+.tabbed-four-panel .nav>li:visited a,
+.tabbed-three-panel .nav>li a,
+.tabbed-three-panel .nav>li.active a,
+.tabbed-three-panel .nav>li:active a,
+.tabbed-three-panel .nav>li:visited a {
+    border: none !important;
+    border-radius: 0px;
+    background-color: none
+}
+.tab-content .newsItem a h1,
+.tab-content .newsItem a h2,
+.tab-content .newsItem a h3,
+.tab-content .newsItem a h4,
+.tab-content .newsItem a h5,
+.tab-content .newsItem a h6 {
+    color: #00a9e3 !important
+}
+.tabbed-three-panel .nav-tabs {
+    background-color: #00a9e3
+}
+.tabbed-three-panel .nav-tabs li.active {
+    border-top: 5px solid #f26f21
+}
+.tabbed-three-panel .nav-tabs li.active:hover>a:hover {
+    color: #00a9e3
+}
+.tabbed-three-panel .nav-tabs li.active a {
+    color: #00a9e3;
+    background-color: #E8E8E8
+}
+.tabbed-three-panel .nav-tabs li>a {
+    color: #fff
+}
+@media screen and (max-width: 992px) {
+    .tabbed-three-panel .nav-tabs li>a {
+        margin-bottom: 0px
+    }
+}
+.tabbed-three-panel .nav-tabs li>a:focus,
+.tabbed-three-panel .nav-tabs li a:hover {
+    color: #00a9e3;
+    background-color: #E8E8E8
+}
+.tabbed-three-panel .tab-content {
+    background-color: #E8E8E8;
+    min-height: 150px;
+    padding: 15px
+}
+.tabbed-three-panel .tab-content .tab-pane {
+    margin: 5px 15px
+}
+.tabbed-four-panel .arrow-down {
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #f00
+}
+@media screen and (min-width: 480px) and (max-width: 992px) {
+    .tabbed-four-panel .arrow-down {
+        margin-top: -5px
+    }
+}
+@media screen and (max-width: 480px) {
+    .tabbed-four-panel .arrow-down {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #f00;
+        margin-top: -5px
+    }
+}
+.tabbed-four-panel table {
+    width: 100%;
+    margin: 5px;
+    top: 0px
+}
+.tabbed-four-panel .nav-tabs {
+    background-color: #E8E8E8
+}
+.tabbed-four-panel .nav-tabs li a,
+.tabbed-four-panel .nav-tabs li a:visited {
+    border: 0px;
+    color: #fff;
+    background: none
+}
+.tabbed-four-panel .nav-tabs li:active,
+.tabbed-four-panel .nav-tabs li:hover,
+.tabbed-four-panel .nav-tabs li:focus,
+.tabbed-four-panel .nav-tabs li.active {
+    border: 0px;
+    background-color: #E8E8E8
+}
+.tabbed-four-panel .nav-tabs li:active a,
+.tabbed-four-panel .nav-tabs li:hover a,
+.tabbed-four-panel .nav-tabs li:focus a,
+.tabbed-four-panel .nav-tabs li.active a {
+    background: none;
+    border-top: 0px;
+    color: #fff
+}
+.tabbed-four-panel .nav-tabs li:first-child a {
+    background-color: #00a9e3
+}
+.tabbed-four-panel .nav-tabs li:first-child .arrow-down {
+    border-top-color: #00a9e3
+}
+.tabbed-four-panel .nav-tabs li:nth-child(2) a {
+    background-color: #f26f21
+}
+.tabbed-four-panel .nav-tabs li:nth-child(2) .arrow-down {
+    border-top-color: #f26f21
+}
+.tabbed-four-panel .nav-tabs li:nth-child(3) a {
+    background-color: #37b77b
+}
+.tabbed-four-panel .nav-tabs li:nth-child(3) .arrow-down {
+    border-top-color: #37b77b
+}
+.tabbed-four-panel .nav-tabs li:nth-child(4) a {
+    background-color: #555f6c
+}
+.tabbed-four-panel .nav-tabs li:nth-child(4) .arrow-down {
+    border-top-color: #555f6c
+}
+.tabbed-four-panel .nav-tabs li:not(.active) .arrow-down {
+    visibility: hidden
+}
+.tabbed-four-panel .tab-content {
+    background-color: #E8E8E8;
+    padding: 5px 20px;
+    min-height: 150px
+}

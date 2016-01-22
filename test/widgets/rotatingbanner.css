@@ -1,0 +1,143 @@
+#carousel-rb-full .carousel-caption,
+#carousel-rb-34 .carousel-caption {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left !important;
+    background-color: rgba(155, 155, 155, 0.9);
+    font-weight: bold;
+    border: 0px solid #00a9e3;
+    z-index: 900
+}
+@media screen and (max-width: 480px) {
+    #carousel-rb-full .carousel-caption,
+    #carousel-rb-34 .carousel-caption {
+        padding: 5px 40px
+    }
+}
+#carousel-rb-full .carousel-control,
+#carousel-rb-34 .carousel-control {
+    height: 100px;
+    z-index: 1000;
+    bottom: 0px;
+    top: 18px
+}
+@media screen and (max-width: 480px) {
+    #carousel-rb-full .carousel-control,
+    #carousel-rb-34 .carousel-control {
+        height: 50px
+    }
+}
+#carousel-rb-full .carousel-control span.glyphicon,
+#carousel-rb-34 .carousel-control span.glyphicon {
+    top: 30%;
+    font-size: 3.00em;
+    margin: 0px
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #carousel-rb-full .carousel-control span.glyphicon,
+    #carousel-rb-34 .carousel-control span.glyphicon {
+        font-size: 1.85em
+    }
+}
+@media screen and (max-width: 768px) {
+    #carousel-rb-full .carousel-control span.glyphicon,
+    #carousel-rb-34 .carousel-control span.glyphicon {
+        font-size: 1.50em;
+        top: 35%;
+        height: 100px
+    }
+}
+#carousel-rb-full .carousel-controls,
+#carousel-rb-34 .carousel-controls {
+    bottom: 18px;
+    position: absolute;
+    width: 100%;
+    height: 100px
+}
+@media screen and (max-width: 768px) {
+    #carousel-rb-full .carousel-controls,
+    #carousel-rb-34 .carousel-controls {
+        height: 50px
+    }
+}
+#carousel-rb-full .carousel-controls .left span,
+#carousel-rb-34 .carousel-controls .left span {
+    left: 15px
+}
+#carousel-rb-full .carousel-controls .right span,
+#carousel-rb-34 .carousel-controls .right span {
+    right: 20px
+}
+#carousel-rb-full .carousel-inner img,
+#carousel-rb-34 .carousel-inner img {
+    width: 100%;
+    height: 350px;
+    max-height: 350px
+}
+#carousel-rb-full .carousel-caption {
+    height: 100px;
+    font-size: 1.00em
+}
+@media screen and (max-width: 480px) {
+    #carousel-rb-full .carousel-caption {
+        height: 50px
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #carousel-rb-full .carousel-caption {
+        height: 100px
+    }
+}
+@media screen and (min-width: 769px) {
+    #carousel-rb-full .carousel-caption {
+        height: 100px
+    }
+}
+@media screen and (min-width: 993px) {
+    #carousel-rb-full .carousel-caption {
+        font-size: 1.850em;
+        height: 100px
+    }
+}
+#carousel-rb-34 .carousel-caption {
+    min-height: 100px
+}
+@media screen and (max-width: 768px) {
+    #carousel-rb-34 .carousel-caption {
+        font-size: 1.00em;
+        height: 100px
+    }
+}
+@media screen and (min-width: 769px) {
+    #carousel-rb-34 .carousel-caption {
+        font-size: 1.50em;
+        height: 100px
+    }
+}
+@media screen and (min-width: 993px) {
+    #carousel-rb-34 .carousel-caption {
+        font-size: 1.750em;
+        height: 100px
+    }
+}
+#carousel-rb-34 .carousel-control,
+#carousel-rb-34 .carousel-controls {
+    height: 100px
+}
+#carousel-rb-34 .carousel-control span,
+#carousel-rb-34 .carousel-controls span {
+    font-size: 2.5em
+}
+@media screen and (max-width: 992px) {
+    #carousel-rb-34 .carousel-inner img {
+        width: auto;
+        height: 350px;
+        max-height: 350px
+    }
+}

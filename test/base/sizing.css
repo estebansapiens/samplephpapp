@@ -1,0 +1,28 @@
+.size-tiny {
+    font-size: 90%
+}
+.size-normal {
+    font-size: 100%
+}
+.size-large {
+    font-size: 125%
+}
+.no-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+.no-padding {
+    padding: 0px
+}
+@media screen and (min-width: 767px) {
+    .mobile * {
+        display: none !important
+    }
+}
+@media screen and (max-width: 768px) {
+    .desktop * {
+        display: none !important
+    }
+}
