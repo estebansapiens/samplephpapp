@@ -22,8 +22,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `studio7data`
 --
-CREATE DATABASE IF NOT EXISTS `studio7data` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `studio7data`;
+USE `studolle_website`;
 
 -- --------------------------------------------------------
 
@@ -213,7 +212,7 @@ CREATE TABLE IF NOT EXISTS `session_handle` (
   `timeout` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `username` varchar(255) NOT NULL,
   `userIP` varchar(255) NOT NULL,
-  `latest_activity` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `latest_activity` timestamp NOT NULL,
   `access_type` varchar(255) NOT NULL,
   `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8;
